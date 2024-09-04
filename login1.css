@@ -1,0 +1,31 @@
+body {
+  font-family: "Inter", sans-serif;
+  /* background-color: #f8f9fa; */
+  margin: 0;
+  padding: 0;
+}
+
+.bgputih {
+  background-color: white;
+}
+
+.bg-primary {
+  background-color: #007bff; /* Atur warna background primer */
+  height: 100vh; /* Memastikan right side mengambil seluruh tinggi viewport */
+}
+
+.btn-light i {
+  font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+  .container-fluid {
+    flex-direction: column;
+  }
+  .col-lg-6 {
+    width: 100%;
+  }
+  .d-none.d-lg-flex {
+    display: none !important;
+  }
+}
